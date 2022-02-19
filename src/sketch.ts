@@ -15,10 +15,7 @@ export default function Sketch(renderer: p5){
         renderer.angleMode(renderer.RADIANS);
         
         numOfPointsSlider = renderer.createSlider(10, 500, 10, 1);
-        numOfPointsSlider.position(100, 100)
-        
         multiplierSlider = renderer.createSlider(2, 100, 2, 0.01);
-        multiplierSlider.position(100, 130)
     }
     
     function draw(){
@@ -41,9 +38,13 @@ export default function Sketch(renderer: p5){
     function drawText(){
         let multiplierLabel = "Multiplier: " + multiplier;
         let numOfPointsLabel = "Total points: " + numOfPoints;
+        
+        numOfPointsSlider.position(100, 100)
+        multiplierSlider.position(100, 130)
+
         renderer.translate(0,0)
-        renderer.text(numOfPointsLabel, -100, -240)
-        renderer.text(multiplierLabel, -100, -210)
+        renderer.text(numOfPointsLabel, 100, 240)
+        renderer.text(multiplierLabel, 100, 210)
     }
     function drawPoints(){
         for (let i = 0; i < numOfPoints; i++) {
