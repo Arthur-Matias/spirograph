@@ -1,13 +1,13 @@
 <div align="center" id="top"> 
-  <img src="./assets/mult_viz.gif" alt="Multiplication Vizualisation" />
+  <img src="./assets/mult_viz.gif" alt="Spirograph" />
 
   &#xa0;
 
   <!-- <a href="https://multiplication_vizualisation.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Multiplication Vizualisation</h1>
-
+<h1 align="center"></h1>
+Spirograph
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/Arthur-Matias/multiplication_vizualisation?color=56BEB8">
 
@@ -66,7 +66,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/Arthur-Matias/multiplication_vizualisation
+$ git clone https://github.com/Arthur-Matias/spirograph
 
 # Access
 $ cd physics
