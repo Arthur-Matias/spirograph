@@ -26,10 +26,6 @@ Spirograph
 
 <!-- Status -->
 
-<!-- <h4 align="center"> 
-	🚧  Physics 🚀 Under construction...  🚧
-</h4> 
-
 <hr> -->
 
 <p align="center">
@@ -46,7 +42,7 @@ Spirograph
 
 ## :dart: About ##
 
-Multiplication Vizualised
+Multiplication Vizualised on a spirograph
 
 ## :rocket: Technologies ##
 
